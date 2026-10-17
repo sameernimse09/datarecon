@@ -10,7 +10,13 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = "MIT"
 license-files = ["LICENSE"]
+authors = [{ name = "Sameer Nimse" }]
 dependencies = ["pandas>=2.0", "numpy>=1.23"]
+
+[project.urls]
+Homepage = "https://github.com/sameernimse09/datarecon"
+Repository = "https://github.com/sameernimse09/datarecon"
+Issues = "https://github.com/sameernimse09/datarecon/issues"
 
 [project.optional-dependencies]
 excel = ["openpyxl>=3.1"]
